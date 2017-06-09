@@ -17,25 +17,7 @@ $.ajax({
     }
     }
   }); 
-  ////////////////////////////////////////////////////////////////////////////////
- /* $.ajax({
-   type: "GET",
-   url: "https://api.twitch.tv/kraken/users/freecodecamp/follows/channels/",
-   headers:{
-     'Client-ID': 'k1f5n273d23o7k57t5uopf1urzocgl'
-   },
-   success: function(data2)
-    {
-     for(var i=0;i<data2.follows.length;i++)
-       {
-         followers.push(data2.follows[i].channel.display_name);
-       }
-      followers.push("ashwini1994");
-      followers.push("surabhi1994");
-      
-    }
-  });*/
-  ///////////////////////////////////////////////////////////////////////////////////
+  
   $.ajax({
    type: "GET",
    url: "https://api.twitch.tv/kraken/users/freecodecamp/follows/channels/",
